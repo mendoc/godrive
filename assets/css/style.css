@@ -6,4 +6,53 @@
 
 body {
     height: 100vh;
+    background-color: #000;
+}
+
+#start {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#start button {
+    padding: 20px;
+    font-size: x-large;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #ffddaa;
+}
+
+.question {
+    height: 100%;
+    display: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#q-1 {
+    background-image: url(https://img.autoplus.fr/news/2016/05/09/1504404/e8504079dc71bf252366ab0a-1350-900.jpg?r);
+}
+
+#q-2 {
+    background-image: url(https://moto-station.com/wp-content/uploads/2016/02/securite-routiere-code-route-1_5518043.jpg);
+}
+
+#q-3 {
+    background-image: url(https://www.permispratique.com/photo/art/grande/42888507-35589301.jpg?v=1582133655);
+}
+
+#q-4 {
+    background-image: url(https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2017.2F06.2F12.2F92cc31e9-4b53-4093-8249-38d88fb7ca61.2Epng/750x375/background-color/ffffff/quality/70/code-de-la-route-question-25-limitation-de-vitesse-1127287.jpg);
+}
+
+#q-5 {
+    background-image: url(https://moto-station.com/wp-content/uploads/2016/06/292fecc5.jpg);
+}
+
+.question.visible {
+    display: block;
 }
