@@ -56,3 +56,5 @@ body {
 .question.visible {
     display: block;
 }
+.validation{color:blue}
+button{outline: none}
